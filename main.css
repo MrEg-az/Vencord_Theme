@@ -1,3 +1,6 @@
+
+
+
 @keyframes cv-channel-select {
   from {
     right: 100%;
@@ -18,33 +21,33 @@
   }
 }
 .info__2debe::after {
-  content: "Tutel - Neuroverse";
-	color: var(--text-muted);
-	font-size: 12px;
-	line-height: 1.3333333333;
-	font-weight: 400;
-	font-family: var(--font-primary)
+  content: "ClearVision" " " "7.0.1";
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.3333333333;
+  font-weight: 400;
+  font-family: var(--font-primary);
 }
 :is(.theme-dark, .theme-light):not(.platform-osx) .leading_c38106::before {
-  content: "Tutel - Neuroverse";
-	position: static;
-	margin-left: 10px;
-	font-size: 16px;
-	font-weight: 600;
-	color: var(--text-default);
-	order: 2;
-	filter: drop-shadow(0 0 5px var(--hsl-main-color))
+  content: "ClearVision";
+  position: static;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-default);
+  order: 2;
+  filter: drop-shadow(0 0 5px var(--hsl-main-color));
 }
 :is(.theme-dark, .theme-light):not(.platform-osx) .leading_c38106::after {
-	content: " ";
-	position: static;
-	margin-top: -5px;
-	margin-left: 5px;
-	font-family: var(--code-font);
-	font-size: 11px;
-	font-weight: 600;
-	color: var(--text-muted);
-	order: 3
+  content: "7.0.1";
+  position: static;
+  margin-top: -5px;
+  margin-left: 5px;
+  font-family: var(--code-font);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  order: 3;
 }
 .button__201d5 {
   border-radius: 4px;
@@ -3513,19 +3516,19 @@ code {
   --font-display: var(--main-font);
   --font-code: var(--code-font);
   --focus-primary: var(--focus-color);
-  --main-color: #f3c2e4;
-  --hover-color: #af4196;
+  --main-color: #2780e6;
+  --hover-color: #1e63b3;
   --success-color: #43b581;
-  --warning-color: #ffcba4;
+  --warning-color: #fff;
   --danger-color: #982929;
-  --info-color: #ffcba4;
+  --info-color: #fff;
   --online-color: #43b581;
-  --idle-color: #ffcba4;
+  --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
-  --offline-color: #885b82;
+  --offline-color: #808080;
   --background-shading-percent: 100%;
-  --background-image: url(https://i.imgur.com/GNW5JXV.jpeg);
+  --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
@@ -3540,7 +3543,7 @@ code {
   --user-modal-size: var(--background-size);
   --user-modal-attachment: var(--background-attachment);
   --user-modal-filter: var(--background-filter);
-  --home-icon: url(https://pbs.twimg.com/profile_images/1918744443168886784/F9P2MtSE_400x400.jpg);
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
   --home-size: cover;
   --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
@@ -3560,40 +3563,33 @@ code {
   --popout-shading: rgba(252, 252, 252, 0.7);
   --modal-shading: rgba(252, 252, 252, 0.5);
   --input-shading: rgba(0, 0, 0, 0.3);
-  --normal-text: #ff70de;
-  --muted-text: #f9a1ed;
+  --normal-text: #36363c;
+  --muted-text: #75757e;
 }
-
-/* ASH THEME */
 :is(.theme-dark, .theme-light .theme-dark) {
   --background-shading: rgba(0, 0, 0, 0.4);
   --card-shading: rgba(0, 0, 0, 0.2);
   --popout-shading: rgba(0, 0, 0, 0.6);
   --modal-shading: rgba(0, 0, 0, 0.4);
   --input-shading: rgba(255, 255, 255, 0.05);
-  --normal-text: #ff70de;
-  --muted-text: #f9a1ed;
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
 }
-
-/* DARK THEME */
 :is(.theme-darker, .theme-light .theme-darker) {
   --background-shading: rgba(0, 0, 0, 0.6);
   --card-shading: rgba(0, 0, 0, 0.3);
   --popout-shading: rgba(0, 0, 0, 0.7);
   --modal-shading: rgba(0, 0, 0, 0.5);
   --input-shading: rgba(255, 255, 255, 0.05);
-  --normal-text: #ff70de;
-  --muted-text: #f9a1ed;
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
 }
-
-/* ONYX THEME */
 :is(.theme-midnight, .theme-light .theme-midnight) {
-    --background-shading: rgba(0, 0, 0, 0.2);
-    --card-shading: rgba(0, 0, 0, 0.4);
-    --popout-shading: rgba(0, 0, 0, 0.8);
-    --modal-shading: rgba(0, 0, 0, 0.6);
-    --input-shading: rgba(255, 255, 255, 0.05);
-    --normal-text: #ff70de;
-    --muted-text: #f9a1e
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
 }
-
